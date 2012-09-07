@@ -1,4 +1,4 @@
-nleitung für Windows
+Anleitung für Windows
 
 1. Maven (aktuellste version, binary, nicht source) downloaden: http://maven.apache.org/download.html
 2. File in Programmordner kopieren (z.B."C:\Program Files (x86)\Apache Software Foundation")
