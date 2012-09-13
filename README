@@ -1,0 +1,20 @@
+nleitung für Windows
+
+1. Maven (aktuellste version, binary, nicht source) downloaden: http://maven.apache.org/download.html
+2. File in Programmordner kopieren (z.B."C:\Program Files (x86)\Apache Software Foundation")
+3. Umgebungsvariablen definieren
+	- M2_HOME=C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.0.x
+		- M2=%M2_HOME%\bin
+			- Path=%M2%
+				- JAVA_HOME={Pfad zum JDK-Ordner}
+				4. Neustarten
+				5. Neues Verzeichnis für Repo erstellen
+				6. Grundgerüst für Projekt erstellen:
+				mvn archetype:create -DgroupId=com.mycompany.app \
+				-DartifactId=my-app
+				7. mvn install
+				8. git init auf Projektordner ausführen
+				8. git add: Alle Dateien und den src-Folder zur staging library hinzufügen, Rest in .gitignore erfassen
+				9. git commit
+				10. git remote add origin {github-repo}
+				11. git push -u origin master
